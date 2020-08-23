@@ -142,12 +142,10 @@ header nav ul li a:hover ~ .move {
 footer {
     display: flex;
     justify-content: center;
+    padding: 5%;
 }
 
 footer div {
-    padding: 20px;
-    margin-top: 3%;
-    display: flex;
     justify-content: center;
     text-shadow: black 2px 2px 5px;
 }
@@ -158,9 +156,10 @@ footer div {
 }
 
 footer h2 {
-    padding: 10px;
     line-height: 50px;
-    color: white;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
 }
 
 .address img {
