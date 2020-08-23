@@ -315,6 +315,18 @@ footer h2 {
     border-radius: 10px;
 }
 
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    background: rgba(255,255,255,0.5);
+    display: none;
+}
+
+
+
 
 
 
