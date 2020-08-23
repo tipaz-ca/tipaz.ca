@@ -101,6 +101,7 @@ header nav ul li a:hover ~ .move {
 
 #logo {
     padding: 10px 20px;
+    width: 15%;
 }
 
   
@@ -344,6 +345,10 @@ footer h2 {
         flex-direction: column;
     }
 
+    #logo {
+        width: 35%;
+    }
+
 
 }
 
@@ -368,6 +373,10 @@ footer h2 {
         padding: 0;
         margin-top: 0;
         margin-bottom: 20px;
+    }
+
+    #logo {
+        width: 40%;
     }
 }
 
