@@ -276,6 +276,7 @@ footer h2 {
     margin: 10px;
     transition: 0.8s ease;
     cursor: pointer;
+    position: relative;
 }
 
 .res-box:hover {
@@ -292,10 +293,16 @@ footer h2 {
     padding: 20px;
 }
 
-.res-box img {
+.res-box a img {
     position: absolute;
     width: 600px;
     height: 470px;
+    top: 0;
+    left: 0;
+}
+
+.res-box a {
+    
 }
 
 .card-group {
