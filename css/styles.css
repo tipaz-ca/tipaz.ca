@@ -317,6 +317,7 @@ footer {
     background-color: #383838;
     width: 600px;
     padding: 20px;
+    font-size: 20px;
 }
 
 .res-box a img {
@@ -362,12 +363,16 @@ footer {
 
 /* Contact CSS */
 
+.right-contact {
+    padding: 20px;
+}
     
 .container-contact {
     max-width: 1470px;
     margin-left: auto;
     margin-right: auto;
     padding: 5em;
+    margin-top: 5%;
   }
   
   ul {
@@ -472,6 +477,10 @@ footer {
     color: #ffffff;
     outline: 0;
     transition: background-color 2s ease-out;
+  }
+
+  .fas {
+      margin: 10px;
   }
   
   /* ------------- */
@@ -585,6 +594,13 @@ footer {
 
     .info-content p {
         font-size: 13px;
+    }
+
+    .right-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
