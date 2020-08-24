@@ -533,7 +533,7 @@ footer {
     }
 
     .carousel-cell h3 {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 }
 
@@ -548,6 +548,10 @@ footer {
     .carousel-cell img {
         width: 100%;
         height: auto;
+    }
+
+    .carousel-cell h3 {
+        font-size: 15px;
     }
 
     #logo {
@@ -618,6 +622,10 @@ footer {
 
     .carousel-cell img {
         height: auto;
+    }
+    
+    .carousel-cell h3 {
+        font-size: 15px;
     }
     
     .fh-top {
