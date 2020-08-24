@@ -559,6 +559,10 @@ footer h2 {
     .dropdown-menu {
         font-size: 1.2em;
     }
+
+    .footer-content img {
+        width: 5%;
+    }
 }
 
 
