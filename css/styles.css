@@ -223,10 +223,11 @@ footer {
 
 .fh-top h2 {
     padding: 30px;
+    font-size: 25px;
 }
 
 .fh-top a {
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
     color: #000;
     background-color: lightgray;
@@ -234,6 +235,7 @@ footer {
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     transition: 0.8s ease;
+    font-size: 18px;
 }
 
 .fh-top a:hover {
