@@ -532,13 +532,13 @@ footer h2 {
     }
 
     .res-box {
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
     }
     
     .res-box a img {
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
     }
 }
 
