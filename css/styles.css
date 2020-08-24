@@ -298,12 +298,12 @@ footer {
 }
 
 .card-group {
-    margin: 50px;
+    margin: 20px;
 }
 
 .card {
     margin-top: 25px;
-    margin: 0 25px;
+    margin: 5px;
     border-radius: 10px;
     background-color: #393939;
     color: #fff;
