@@ -143,7 +143,7 @@ header nav ul li a:hover ~ .move {
 }
 
 footer {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     padding: 5%;
 }
@@ -161,18 +161,15 @@ footer h2 {
 }
 
 .footer-content {
-    display: inline-flex;
+    display: flex;
 }
 
 .footer-content h2 {
     font-size: 1em;
-    padding: 10px;
-    float: right;
 }
 
 .footer-content img {
-    float: left;
-    width: 10%;
+    width: 5%;
 }
 
 .address {
@@ -561,7 +558,7 @@ footer h2 {
     }
 
     .footer-content img {
-        width: 5%;
+        width: 10%;
     }
 }
 
