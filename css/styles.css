@@ -60,6 +60,10 @@ header nav ul li a:hover{
     background-color: #141414 !important;
 }
 
+nav {
+    width: 100%;
+}
+
 .nav-item {
     padding: 20px;
 }
@@ -149,11 +153,6 @@ footer div {
     text-shadow: black 2px 2px 5px;
 }
 
-.address {
-    display: flex;
-    align-self: center;
-}
-
 footer h2 {
     line-height: 50px;
     color: #fff;
@@ -161,25 +160,29 @@ footer h2 {
     font-size: 1.2em;
 }
 
-.address img {
+.footer-content {
+    display: inline-flex;
+}
+
+.footer-content h2 {
+    font-size: 1em;
+    padding: 10px;
+    float: right;
+}
+
+.footer-content img {
+    float: left;
+}
+
+.address {
     width: 10%;
 }
 
 .mail {
-    display: flex;
-    align-self: center;
-}
-
-.mail img {
     width: 15%;
 }
 
 .phone {
-    display: flex;
-    align-self: center;
-}
-
-.phone img {
     width: 15%;
 }
 
@@ -190,14 +193,13 @@ footer h2 {
 
 .fh-top {
     text-align: center;
-    padding: 20px;
     color: #fff;
+    margin: 20% 0;
 }
 
 .fh-top h2 {
-    margin-top: 100px;
     padding: 30px;
-    font-size: 4em;
+    font-size: 1.5em;
 }
 
 .fh-top a {
@@ -206,7 +208,7 @@ footer h2 {
     color: black;
     background-color: lightgray;
     padding: 13px;
-    font-size: 1.6em;
+    font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     transition: 0.8s ease;
@@ -223,7 +225,7 @@ footer h2 {
 .fhp h3 {
     padding: 20px;
     color: #fff;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .fhp-img {
@@ -237,10 +239,11 @@ footer h2 {
     flex: auto;
     width: 550px;
     margin: .5vw;
+    text-align: center;
 }
 
 .fhp-img div img {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -253,7 +256,7 @@ footer h2 {
 .residential-top h2 {
     margin-top: 50px;
     padding: 30px;
-    font-size: 2.6em;
+    font-size: 2em;
 }
 
 .residential-cont {
@@ -333,14 +336,19 @@ footer h2 {
     display: none;
 }
 
+#bot-footer {
+    position: absolute;
+    width: 100%;
+}
+
 /* Contact CSS */
 
     
-.container {
-    max-width: 1170px;
+.container-contact {
+    max-width: 1470px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 5em;
   }
   
   ul {
@@ -350,13 +358,7 @@ footer h2 {
   
   .wrapper {
     box-shadow: 0 0 20px 0 black;
-    position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 5%;
-  left: 0;
-  width: 70%;
+    
   height: 500px;
   border-radius: 3px;
   }
@@ -540,6 +542,12 @@ footer h2 {
         width: 300px;
         height: 200px;
     }
+    
+    .fh-top {
+        text-align: center;
+        color: #fff;
+        margin: 50% 0;
+    }
 }
 
 
@@ -547,6 +555,12 @@ footer h2 {
 
     .carousel-cell {
         height: 400px;
+    }
+    
+    .fh-top {
+        text-align: center;
+        color: #fff;
+        margin: 65% 0;
     }
 
 
