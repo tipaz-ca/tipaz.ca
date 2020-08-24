@@ -351,8 +351,6 @@ footer {
   
   .wrapper {
     box-shadow: 0 0 20px 0 #000;
-    
-  height: 500px;
   border-radius: 3px;
   }
   
@@ -370,7 +368,7 @@ footer {
   /* ------------------- */
   
   .company-info {
-    background: #141414;
+    background: #272727;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     color: #fff;
