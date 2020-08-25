@@ -38,7 +38,7 @@ nav {
 
 .dropdown-menu {
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 20px;
     transform: translateY(-5px);
 }
 
@@ -298,12 +298,12 @@ footer {
 }
 
 .card-group {
-    margin: 20px;
+    margin: 30px;
 }
 
 .card {
     margin-top: 25px;
-    margin: 5px;
+    margin: 15px;
     border-radius: 10px;
     background-color: #393939;
     color: #fff;
@@ -589,6 +589,23 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .card-group {
+        margin: 30px;
+    }
+    
+    .card {
+        margin-top: 25px;
+        margin: 20px;
+        border-radius: 10px;
+        background-color: #393939;
+        color: #fff;
+        box-shadow: #000 2px 2px 5px;
+    }
+
+    .overlay {
+        display: none;
     }
 }
 
