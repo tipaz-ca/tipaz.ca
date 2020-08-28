@@ -342,6 +342,30 @@ footer {
     height: auto;
 }
 
+#last {
+    width: 80%;
+    height: auto;
+}
+
+.back-to-the-top {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    transition: 0.6s ease;
+}
+
+.back-to-the-top a {
+    color: #ff351a;
+    font-size: 50px;
+    margin: 5px;
+    border: none;
+}
+
+.back-to-the-top:hover {
+    padding: 10px;
+    transform: scale(1.1);
+}
+
 /* Contact CSS */
 
 .right-contact {
@@ -607,6 +631,8 @@ footer {
     .overlay {
         display: none;
     }
+
+    
 }
 
 
