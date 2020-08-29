@@ -82,24 +82,20 @@ nav {
 .carousel-cell h3 {
     color: #fff;
     background-color: gray;
+    font-size: 18px;
     padding: 25px;
     border-radius: 12px;
     box-shadow: #000 2px 2px 10px;
-    opacity: 0.85;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: #000 2px 2px 10px;
 }
 
 .carousel-cell img {
     width: auto;
     height: 100%;
-}
-
-.carousel-cell h3 {
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: #000 2px 2px 10px; 
-  font-size: 2em;
 }
 
 /* INDEX END */
@@ -434,6 +430,10 @@ footer {
     margin: 0 0 1rem 0;
   }
   
+
+  .company-info ul li:nth-child(1) {
+      font-size: 13px;
+  }
   /* ------- */
   /* CONTACT */
   /* ------- */
@@ -607,6 +607,7 @@ footer {
 
     .right-col {
         margin-top: 20px;
+        display: none;
     }
 
     .left-col {
@@ -640,13 +641,7 @@ footer {
         background-color: #393939;
         color: #fff;
         box-shadow: #000 2px 2px 5px;
-    }
-
-    .overlay {
-        display: none;
-    }
-
-    
+    }  
 }
 
 
